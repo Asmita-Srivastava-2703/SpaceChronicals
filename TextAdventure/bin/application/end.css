@@ -1,0 +1,58 @@
+/* Import Orbitron font (must be at the top) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Background for main menu */
+.menu-background {
+    -fx-background-color: black;
+}
+
+/* Apply Orbitron font globally */
+.root {
+    -fx-font-family: 'Orbitron';
+}
+
+/* Neon Button */
+.neon-button {
+    -fx-font-family: 'Orbitron'; /* Apply Orbitron */
+    -fx-font-size: 30px;
+	-fx-background-color: transparent;
+	    -fx-border-color: cyan;
+	    -fx-border-width: 2;
+    -fx-border-radius: 0px; /* Make buttons perfectly square */
+    -fx-min-width: 200px;
+    -fx-min-height: 200px;
+    -fx-max-width: 500px;
+    -fx-max-height: 500px;
+	-fx-text-fill: cyan;
+	    -fx-padding: 10 20;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(three-pass-box, cyan, 10, 0.5, 0, 0);
+}
+
+/* Hover effect: Button glows when hovered */
+.neon-button:hover {
+    -fx-background-color: cyan;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 255, 255, 1.0), 20, 0.9, 0, 0);
+}
+
+/* Title text neon glow */
+.title-text {
+	-fx-font-size: 5px;
+	   -fx-font-weight: bold;
+	   -fx-text-fill: cyan;
+	  
+   }
+   .title-error {
+   	-fx-font-size: 40px;
+   	   -fx-font-weight: bold;
+   	   -fx-text-fill: red;
+   	   
+      }
+/* Specific styles for ending message */
+.ending-message {
+    -fx-font-size: 18px; /* Adjust font size for ending messages */
+    -fx-font-weight: bold;
+    -fx-text-fill: cyan; /* Color for the text */
+}
+      

@@ -1,0 +1,49 @@
+/* Import Orbitron font (must be at the top) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Background for main menu */
+.menu-background {
+    -fx-background-color: black;
+}
+
+/* Apply Orbitron font globally */
+.root {
+    -fx-font-family: 'Orbitron';
+}
+
+/* Neon Button */
+.neon-button {
+    -fx-font-family: 'Orbitron'; /* Apply Orbitron */
+    -fx-font-size: 30px;
+    -fx-text-fill: cyan; /* Neon text */
+    -fx-background-color: black;
+    -fx-border-color: cyan;
+    -fx-border-width: 3px;
+    -fx-border-radius: 0px; /* Make buttons perfectly square */
+    -fx-min-width: 200px;
+    -fx-min-height: 100px;
+    -fx-max-width: 300px;
+    -fx-max-height: 150px;
+    -fx-padding: 0px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 255, 255, 1.0), 15, 0.7, 0, 0);
+}
+
+/* Hover effect: Button glows when hovered */
+.neon-button:hover {
+    -fx-background-color: cyan;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 255, 255, 1.0), 20, 0.9, 0, 0);
+}
+
+/* Title text neon glow */
+.title-text {
+    -fx-fill: cyan;
+    -fx-font-size: 100px; /* Huge size */
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 255, 255, 1.0), 40, 1.0, 0, 0);
+}
+
+

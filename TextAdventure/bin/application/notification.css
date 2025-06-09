@@ -1,0 +1,45 @@
+.background {
+    -fx-background-color: #000000;
+}
+
+.dialog-box {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-border-color: cyan;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(three-pass-box, cyan, 15, 0.5, 0, 0);
+    -fx-alignment: center;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: cyan;
+    
+}
+
+.message-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+.countdown-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: red;
+}
+
+.choice-button {
+    -fx-font-size: 16px;
+    -fx-background-color: transparent;
+    -fx-border-color: cyan;
+    -fx-border-width: 2;
+    -fx-text-fill: cyan;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(three-pass-box, cyan, 10, 0.5, 0, 0);
+}
+
+.choice-button:hover {
+    -fx-background-color: cyan;
+    -fx-text-fill: black;
+}
